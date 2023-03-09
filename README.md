@@ -1,5 +1,4 @@
 #How to Fork project ppy3
-#we must to Fork project
 # comment
 1. git init
 2. git add .
