@@ -1,0 +1,47 @@
+.containerf{
+    width: 100%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.font{
+    padding: 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    margin: 10px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.footer{
+    background-color: #05F2F2;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 20px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ffff;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    
+}
