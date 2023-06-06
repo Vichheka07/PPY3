@@ -7,7 +7,12 @@ ul{
     padding: 0;
 }
 .font{
-    padding: 6px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.font:hover{
+    color: white;
+    padding: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
 span{
@@ -27,6 +32,9 @@ span{
     padding: 0 15px;
 }
 .footer-col h4{
+    margin-left: 40px;
+    display: flex;
+    align-items: start;
     font-size: 20px;
     color: #ffff;
     text-transform: capitalize;
@@ -35,6 +43,7 @@ span{
     position: relative;
 }
 .footer-col h4::before{
+    display: flex;
     content: '';
     position: absolute;
     left: 0;
@@ -43,5 +52,18 @@ span{
     height: 2px;
     box-sizing: border-box;
     width: 50px;
-    
 }
+.logins{
+    list-style: none;
+    color: white;
+}
+.fot-po{
+    margin-left: 300px;
+}
+.fot-logo{
+    margin-right: 120px;
+}
+.text-start{
+    cursor: pointer;
+}
+

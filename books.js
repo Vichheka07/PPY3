@@ -1,3 +1,4 @@
+const { render } = require("ejs");
 const express = require("express");
 const app = express();
 
@@ -8,6 +9,14 @@ app.get("/", function(req, res){
     res.render("Body")
 });
 
-app.listen(3000, function(){
+app.get("/login", function(req, res){
+    // res.redirect("/login")
+    res.render('login');
+});
+app.get("/sign_up", function(req, res){
+    res.render('Sign_up');
+});
+
+app.listen(5000, function(){
     console.log("Sever started on port 3000");
 });
